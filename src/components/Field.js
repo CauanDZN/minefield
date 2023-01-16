@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native'
 import params from '../params'
+import Mine from './Mine'
 
 export default props => {
     const { mined, opened, nearMines, exploded, flagged } = props
